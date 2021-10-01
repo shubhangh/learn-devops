@@ -1,11 +1,15 @@
 import "./App.css";
 
+// Import components
+import NavigationMenu from "./components/nav";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>This is the paragraph </p>
+        <NavigationMenu></NavigationMenu>
       </header>
+      <div className="body"></div>
     </div>
   );
 }
